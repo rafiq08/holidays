@@ -1,6 +1,8 @@
-Intro to Frontend Progate 2023 Kelompok J4
+Intro to Frontend 2023 
 
-Daftar Peserta:
+holidays merupakan sebuah landing page yang bertema liburan dengan fitur-fitur travel sederhana
+
+Daftar Team:
 <br>
 
 1. <a href="https://github.com/mbarokah">M.barokah</a>
