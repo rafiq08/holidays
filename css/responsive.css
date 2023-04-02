@@ -1,0 +1,145 @@
+/* Untuk Tablet*/
+@media all and (max-width: 1000px) {
+  .txt-contents{
+    font-size:2vw;
+  }
+
+  .lesson{
+    position: relative;
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 890px){
+  .lesson{
+    width: 40%;
+  }
+}
+  
+
+
+@media screen and (max-width: 770px) {
+  .header-left a {
+    padding: 0 5px;
+  }
+  .header-right {
+    float: left;
+  }
+
+  .travel{
+    width:100%;
+  }
+
+  .travel-icon{
+    display:block;
+  }
+
+  .txt-contents{
+    font-size: 3vw;
+  }
+
+  .lesson{
+    width: 50%;
+  }
+
+  
+}
+
+/* Untuk Smartphone */
+@media screen and (max-width: 680px) {
+  .header-left a {
+    display: none;
+  }
+  .header-right {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+    color: white;
+    font-size: 25px;
+    padding: 21px 0;
+    float: right;
+  }
+
+
+  .menu-icon:hover{
+    cursor: pointer;
+  }
+  
+  .main{
+    text-align: left;
+  }
+
+  .main-button {
+    margin:10px 10px;
+  }
+
+  .txt-contents{
+    font-size:4vw;
+  }
+
+  .lesson{
+    width: 100%;
+  }
+  .form-container{
+    height: auto;
+  }
+  
+  .footer-wrapper{
+    height: auto;
+    padding-bottom:170px;
+  }
+}
+
+@media screen and (max-width: 170px) {
+  .header-logo {
+    display: none;
+  }
+  .header-left a {
+    display: none;
+  }
+  .header-right {
+    display: none;
+  }
+
+  .form-container button{
+    width: 20%;
+    height: auto;
+  }
+}
+
+/* foter */
+@media (min-width: 1200px){
+  .footer-container {
+    width: 1170px;
+  }
+}
+
+@media (min-width: 992px){
+.container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 768px){
+  .container {
+    width: 750px;
+  }
+}
+
+
+@media (min-width: 768px){
+  .col-sm-3 {
+      width: 25%;
+      float: left;
+    }
+  }
+
+/*colomns */
+@media (min-width: 768px){
+   .columns{
+    float:left;
+    width: 25%;
+  }
+}
